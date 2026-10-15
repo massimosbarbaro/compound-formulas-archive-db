@@ -1,0 +1,173 @@
+Version =131074
+ColumnsShown =3
+Begin
+End
+Begin
+    MacroName ="Generale"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SGenerale"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="Sbarbaro"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SSbarbaro"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="Chiudi"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SGenerale"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="FCodice"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SRicProd"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="FNome"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SRicFor"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="2"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="MPCodice"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SRicMP"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="2"
+    Argument ="0"
+End
+Begin
+End
+Begin
+    MacroName ="MPNome"
+    Action ="RunCommand"
+    Argument ="58"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SRicMPnome"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="2"
+    Argument ="0"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="Ricerche"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="StampeSRicFor"
+    Action ="OpenReport"
+    Argument ="Formule"
+    Argument ="2"
+    Argument =""
+    Argument ="[Articolo]=[Forms]![SRicFor]![Articolo]"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="StampeSricProd"
+    Action ="OpenReport"
+    Argument ="Formule"
+    Argument ="2"
+    Argument =""
+    Argument ="[Articolo]=[Forms]![SRicProd]![Articolo]"
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="StampeSricMP"
+    Action ="OpenReport"
+    Argument ="Formule"
+    Argument ="2"
+    Argument =""
+    Argument ="[Articolo]=[Forms]![SRicMP]![Articolo]"
+End
+Begin
+End
+Begin
+End
+Begin
+End
+Begin
+End
+Begin
+    MacroName ="StampeSRicMPnome"
+    Action ="OpenReport"
+    Argument ="Formule"
+    Argument ="2"
+    Argument =""
+    Argument ="[Articolo]=[Forms]![SRicMPnome]![Articolo]"
+End

@@ -1,0 +1,1949 @@
+Version =21
+VersionRequired =20
+Checksum =-1399249659
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowAdditions = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10488
+    DatasheetFontHeight =10
+    ItemSuffix =118
+    Left =1350
+    Top =1170
+    Right =13035
+    Bottom =9405
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xc8edd25052b4e140
+    End
+    RecordSource ="RicCodice"
+    Caption ="FORMULE"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x89050000890500008905000089050000000000009f2d0000e023000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            OldBorderStyle =1
+            TextAlign =1
+            FontWeight =700
+            BackColor =8388608
+            BorderColor =8388608
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =2
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderWidth =2
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            BackStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =16776960
+        End
+        Begin CommandButton
+            FontItalic = NotDefault
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =-2147483630
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =4
+            BorderWidth =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8388608
+        End
+        Begin CheckBox
+            SpecialEffect =4
+            BorderWidth =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =8388608
+        End
+        Begin OptionGroup
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =8421376
+            BorderColor =16776960
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =16776960
+        End
+        Begin TextBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =8421376
+            BorderColor =16776960
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =8421376
+            ForeColor =16777215
+            BorderColor =16776960
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =8421376
+            BorderColor =16776960
+            ForeColor =16777215
+            FontName ="Arial"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =16776960
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =16776960
+        End
+        Begin ToggleButton
+            FontItalic = NotDefault
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =-2147483630
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            FontItalic = NotDefault
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =746
+            BackColor =13421619
+            Name ="IntestazioneMaschera"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =2415
+                    Top =120
+                    Width =5610
+                    Height =525
+                    FontSize =20
+                    BackColor =16737843
+                    Name ="Etichetta112"
+                    Caption ="Ricerca del Nome delle Formule"
+                    FontName ="Times New Roman"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9070
+                    Top =170
+                    Width =576
+                    Height =516
+                    Name ="Stampa"
+                    Caption ="Comando117"
+                    OnClick ="MGenerale.StampeSRicFor"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaad00000000000dadd0888888888080da ,
+                        0x000000000000080d0888888bbb88000a088888877788080d0000000000000880 ,
+                        0x0888888888808080d000000000080800ad0ffffffff08080dad0f00000f0000a ,
+                        0xada0ffffffff0daddada0f00000f0adaadad0ffffffff0addadad000000000da ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Esegui macro"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    FontItalic = NotDefault
+                    OverlapFlags =85
+                    Left =566
+                    Top =113
+                    Width =576
+                    Height =576
+                    FontWeight =400
+                    TabIndex =1
+                    Name ="Esci"
+                    Caption ="Comando3"
+                    OnClick ="MGenerale.Generale"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad
+                    End
+                    FontName ="MS Sans Serif"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Esegui macro"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin Section
+            Height =9184
+            BackColor =8421376
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =908
+                    Top =113
+                    Width =630
+                    Height =255
+                    ColumnWidth =720
+                    Name ="Articolo"
+                    ControlSource ="Articolo"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =62
+                            Top =113
+                            Width =750
+                            Height =240
+                            Name ="Articolo Etichetta"
+                            Caption ="Articolo"
+                            EventProcPrefix ="Articolo_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =1077
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =1
+                    Name ="Componenete1"
+                    ControlSource ="Componenete1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =1077
+                            Width =1365
+                            Height =240
+                            Name ="Componenete1 Etichetta"
+                            Caption ="Componenete1"
+                            EventProcPrefix ="Componenete1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =1483
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =2
+                    Name ="Componenete2"
+                    ControlSource ="Componenete2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =1483
+                            Width =1365
+                            Height =240
+                            Name ="Componenete2 Etichetta"
+                            Caption ="Componenete2"
+                            EventProcPrefix ="Componenete2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =1889
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =3
+                    Name ="Componenete3"
+                    ControlSource ="Componenete3"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =1889
+                            Width =1365
+                            Height =240
+                            Name ="Componenete3 Etichetta"
+                            Caption ="Componenete3"
+                            EventProcPrefix ="Componenete3_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =2295
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =4
+                    Name ="Componenete4"
+                    ControlSource ="Componenete4"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =2295
+                            Width =1365
+                            Height =240
+                            Name ="Componenete4 Etichetta"
+                            Caption ="Componenete4"
+                            EventProcPrefix ="Componenete4_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =2701
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =5
+                    Name ="Componenete5"
+                    ControlSource ="Componenete5"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =2701
+                            Width =1365
+                            Height =240
+                            Name ="Componenete5 Etichetta"
+                            Caption ="Componenete5"
+                            EventProcPrefix ="Componenete5_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =3107
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =6
+                    Name ="Componenete6"
+                    ControlSource ="Componenete6"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =3107
+                            Width =1365
+                            Height =240
+                            Name ="Componenete6 Etichetta"
+                            Caption ="Componenete6"
+                            EventProcPrefix ="Componenete6_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =1643
+                    Top =3513
+                    Width =1125
+                    Height =255
+                    ColumnWidth =720
+                    TabIndex =7
+                    Name ="Componenete7"
+                    ControlSource ="Componenete7"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =3513
+                            Width =1365
+                            Height =240
+                            Name ="Componenete7 Etichetta"
+                            Caption ="Componenete7"
+                            EventProcPrefix ="Componenete7_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1643
+                    Top =3919
+                    Width =1137
+                    Height =255
+                    ColumnWidth =3000
+                    TabIndex =8
+                    Name ="Componenete8"
+                    ControlSource ="Componenete8"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =57
+                            Top =3919
+                            Width =1365
+                            Height =240
+                            Name ="Componenete8 Etichetta"
+                            Caption ="Componenete8"
+                            EventProcPrefix ="Componenete8_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1643
+                    Top =4325
+                    Width =1137
+                    Height =255
+                    ColumnWidth =3000
+                    TabIndex =9
+                    Name ="Componenete9"
+                    ControlSource ="Componenete9"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =4325
+                            Width =1365
+                            Height =240
+                            Name ="Componenete9 Etichetta"
+                            Caption ="Componenete9"
+                            EventProcPrefix ="Componenete9_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1656
+                    Top =4731
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =10
+                    Name ="Componenete10"
+                    ControlSource ="Componenete10"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =4731
+                            Width =1371
+                            Height =255
+                            Name ="Componenete10 Etichetta"
+                            Caption ="Componenete10"
+                            EventProcPrefix ="Componenete10_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =5152
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =11
+                    Name ="Componenete11"
+                    ControlSource ="Componenete11"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =5152
+                            Width =1371
+                            Height =255
+                            Name ="Componenete11 Etichetta"
+                            Caption ="Componenete11"
+                            EventProcPrefix ="Componenete11_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =5573
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =12
+                    Name ="Componenete12"
+                    ControlSource ="Componenete12"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =5573
+                            Width =1371
+                            Height =255
+                            Name ="Componenete12 Etichetta"
+                            Caption ="Componenete12"
+                            EventProcPrefix ="Componenete12_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =5994
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =13
+                    Name ="Componenete13"
+                    ControlSource ="Componenete13"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =5994
+                            Width =1371
+                            Height =255
+                            Name ="Componenete13 Etichetta"
+                            Caption ="Componenete13"
+                            EventProcPrefix ="Componenete13_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =6415
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =14
+                    Name ="Componenete14"
+                    ControlSource ="Componenete14"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =6415
+                            Width =1371
+                            Height =255
+                            Name ="Componenete14 Etichetta"
+                            Caption ="Componenete14"
+                            EventProcPrefix ="Componenete14_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =6836
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =15
+                    Name ="Componenete15"
+                    ControlSource ="Componenete15"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =6836
+                            Width =1371
+                            Height =255
+                            Name ="Componenete15 Etichetta"
+                            Caption ="Componenete15"
+                            EventProcPrefix ="Componenete15_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1652
+                    Top =7257
+                    Width =1137
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =16
+                    Name ="Componenete16"
+                    ControlSource ="Componenete16"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =7257
+                            Width =1371
+                            Height =255
+                            Name ="Componenete16 Etichetta"
+                            Caption ="Componenete16"
+                            EventProcPrefix ="Componenete16_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1637
+                    Top =7678
+                    Width =1182
+                    Height =225
+                    ColumnWidth =3000
+                    TabIndex =17
+                    Name ="Componenete17"
+                    ControlSource ="Componenete17"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =7678
+                            Width =1356
+                            Height =255
+                            Name ="Componenete17 Etichetta"
+                            Caption ="Componenete17"
+                            EventProcPrefix ="Componenete17_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1637
+                    Top =8084
+                    Width =1182
+                    Height =225
+                    ColumnWidth =3000
+                    TabIndex =18
+                    Name ="Componenete18"
+                    ControlSource ="Componenete18"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =8084
+                            Width =1356
+                            Height =255
+                            Name ="Componenete18 Etichetta"
+                            Caption ="Componenete18"
+                            EventProcPrefix ="Componenete18_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =1089
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =19
+                    Name ="Peso1"
+                    ControlSource ="Peso1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =1089
+                            Width =555
+                            Height =240
+                            Name ="Peso1 Etichetta"
+                            Caption ="Peso1"
+                            EventProcPrefix ="Peso1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =1493
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =20
+                    Name ="Peso2"
+                    ControlSource ="Peso2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =1493
+                            Width =555
+                            Height =240
+                            Name ="Peso2 Etichetta"
+                            Caption ="Peso2"
+                            EventProcPrefix ="Peso2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =1897
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =21
+                    Name ="Peso3"
+                    ControlSource ="Peso3"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =1897
+                            Width =555
+                            Height =240
+                            Name ="Peso3 Etichetta"
+                            Caption ="Peso3"
+                            EventProcPrefix ="Peso3_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =2301
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =22
+                    Name ="Peso4"
+                    ControlSource ="Peso4"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =2301
+                            Width =555
+                            Height =240
+                            Name ="Peso4 Etichetta"
+                            Caption ="Peso4"
+                            EventProcPrefix ="Peso4_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =2705
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =23
+                    Name ="Peso5"
+                    ControlSource ="Peso5"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =2705
+                            Width =555
+                            Height =240
+                            Name ="Peso5 Etichetta"
+                            Caption ="Peso5"
+                            EventProcPrefix ="Peso5_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =3109
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =24
+                    Name ="Peso6"
+                    ControlSource ="Peso6"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =3109
+                            Width =555
+                            Height =240
+                            Name ="Peso6 Etichetta"
+                            Caption ="Peso6"
+                            EventProcPrefix ="Peso6_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =3513
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =25
+                    Name ="Peso7"
+                    ControlSource ="Peso7"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =3513
+                            Width =555
+                            Height =240
+                            Name ="Peso7 Etichetta"
+                            Caption ="Peso7"
+                            EventProcPrefix ="Peso7_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =3917
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =26
+                    Name ="Peso8"
+                    ControlSource ="Peso8"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =3917
+                            Width =555
+                            Height =240
+                            Name ="Peso8 Etichetta"
+                            Caption ="Peso8"
+                            EventProcPrefix ="Peso8_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =4321
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =27
+                    Name ="Peso9"
+                    ControlSource ="Peso9"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =4321
+                            Width =555
+                            Height =240
+                            Name ="Peso9 Etichetta"
+                            Caption ="Peso9"
+                            EventProcPrefix ="Peso9_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =4725
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =28
+                    Name ="Peso10"
+                    ControlSource ="Peso10"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =4725
+                            Width =645
+                            Height =240
+                            Name ="Peso10 Etichetta"
+                            Caption ="Peso10"
+                            EventProcPrefix ="Peso10_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =5171
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =29
+                    Name ="Peso11"
+                    ControlSource ="Peso11"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =5171
+                            Width =645
+                            Height =240
+                            Name ="Peso11 Etichetta"
+                            Caption ="Peso11"
+                            EventProcPrefix ="Peso11_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =5575
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =30
+                    Name ="Peso12"
+                    ControlSource ="Peso12"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =5575
+                            Width =645
+                            Height =240
+                            Name ="Peso12 Etichetta"
+                            Caption ="Peso12"
+                            EventProcPrefix ="Peso12_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =6021
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =31
+                    Name ="Peso13"
+                    ControlSource ="Peso13"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =6021
+                            Width =645
+                            Height =240
+                            Name ="Peso13 Etichetta"
+                            Caption ="Peso13"
+                            EventProcPrefix ="Peso13_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =6425
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =32
+                    Name ="Peso14"
+                    ControlSource ="Peso14"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =6425
+                            Width =645
+                            Height =240
+                            Name ="Peso14 Etichetta"
+                            Caption ="Peso14"
+                            EventProcPrefix ="Peso14_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =6829
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =33
+                    Name ="Peso15"
+                    ControlSource ="Peso15"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =6829
+                            Width =645
+                            Height =240
+                            Name ="Peso15 Etichetta"
+                            Caption ="Peso15"
+                            EventProcPrefix ="Peso15_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =7269
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =34
+                    Name ="Peso16"
+                    ControlSource ="Peso16"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =7269
+                            Width =645
+                            Height =240
+                            Name ="Peso16 Etichetta"
+                            Caption ="Peso16"
+                            EventProcPrefix ="Peso16_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =7673
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =35
+                    Name ="Peso17"
+                    ControlSource ="Peso17"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =7673
+                            Width =645
+                            Height =240
+                            Name ="Peso17 Etichetta"
+                            Caption ="Peso17"
+                            EventProcPrefix ="Peso17_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =3685
+                    Top =8077
+                    Width =522
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =36
+                    Name ="Peso18"
+                    ControlSource ="Peso18"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3004
+                            Top =8077
+                            Width =645
+                            Height =240
+                            Name ="Peso18 Etichetta"
+                            Caption ="Peso18"
+                            EventProcPrefix ="Peso18_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =3682
+                    Top =510
+                    Width =687
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =37
+                    Name ="Spessore da"
+                    ControlSource ="Spessore da"
+                    EventProcPrefix ="Spessore_da"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2551
+                            Top =510
+                            Width =1050
+                            Height =240
+                            Name ="Spessore da Etichetta"
+                            Caption ="Spessore da"
+                            EventProcPrefix ="Spessore_da_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =4770
+                    Top =510
+                    Width =615
+                    Height =270
+                    ColumnWidth =2310
+                    TabIndex =38
+                    Name ="Spessore a"
+                    ControlSource ="Spessore a"
+                    EventProcPrefix ="Spessore_a"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4479
+                            Top =510
+                            Width =225
+                            Height =240
+                            Name ="Spessore a Etichetta"
+                            Caption =" a"
+                            EventProcPrefix ="Spessore_a_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =6922
+                    Top =113
+                    Width =3510
+                    Height =270
+                    ColumnWidth =3000
+                    TabIndex =39
+                    Name ="Note"
+                    ControlSource ="Note"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =6406
+                            Top =113
+                            Width =456
+                            Height =255
+                            Name ="Note Etichetta"
+                            Caption ="Note"
+                            EventProcPrefix ="Note_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =2273
+                    Top =113
+                    Width =945
+                    Height =210
+                    ColumnWidth =3000
+                    TabIndex =40
+                    Name ="Prodotto"
+                    ControlSource ="Prodotto"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =1757
+                            Top =113
+                            Width =456
+                            Height =255
+                            Name ="Prodotto Etichetta"
+                            Caption ="Prodotto"
+                            EventProcPrefix ="Prodotto_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =512
+                    Top =510
+                    Width =735
+                    Height =270
+                    ColumnWidth =870
+                    TabIndex =41
+                    Name ="DataF1"
+                    ControlSource ="DataF1"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =510
+                            Width =360
+                            Height =240
+                            Name ="DataF1 Etichetta"
+                            Caption ="Dal"
+                            EventProcPrefix ="DataF1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =1696
+                    Top =510
+                    Width =735
+                    Height =270
+                    ColumnWidth =870
+                    TabIndex =42
+                    Name ="DataF2"
+                    ControlSource ="DataF2"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =1360
+                            Top =510
+                            Width =255
+                            Height =240
+                            Name ="DataF2 Etichetta"
+                            Caption ="Al"
+                            EventProcPrefix ="DataF2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =3344
+                    Top =113
+                    Width =2871
+                    TabIndex =43
+                    Name ="ANAGRAFICHE_DENO"
+                    ControlSource ="Anart_Descrizione"
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =1089
+                    Width =3021
+                    TabIndex =44
+                    Name ="1_DENO"
+                    ControlSource ="Anart_1_Descrizione"
+                    EventProcPrefix ="Ctl1_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =1089
+                            Width =915
+                            Height =240
+                            Name ="Etichetta94"
+                            Caption ="1_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =1488
+                    Width =3021
+                    TabIndex =45
+                    Name ="2_DENO"
+                    ControlSource ="Anart_2_Descrizione"
+                    EventProcPrefix ="Ctl2_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =1488
+                            Width =915
+                            Height =240
+                            Name ="Etichetta95"
+                            Caption ="2_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =1887
+                    Width =3021
+                    TabIndex =46
+                    Name ="3_DENO"
+                    ControlSource ="Anart_3_Descrizione"
+                    EventProcPrefix ="Ctl3_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =1887
+                            Width =915
+                            Height =240
+                            Name ="Etichetta96"
+                            Caption ="3_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =2286
+                    Width =3021
+                    TabIndex =47
+                    Name ="4_DENO"
+                    ControlSource ="Anart_4_Descrizione"
+                    EventProcPrefix ="Ctl4_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =2286
+                            Width =915
+                            Height =240
+                            Name ="Etichetta97"
+                            Caption ="4_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =2733
+                    Width =3021
+                    TabIndex =48
+                    Name ="5_DENO"
+                    ControlSource ="Anart_5_Descrizione"
+                    EventProcPrefix ="Ctl5_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =2733
+                            Width =915
+                            Height =240
+                            Name ="Etichetta98"
+                            Caption ="5_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =3132
+                    Width =3021
+                    TabIndex =49
+                    Name ="6_DENO"
+                    ControlSource ="Anart_6_Descrizione"
+                    EventProcPrefix ="Ctl6_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =3132
+                            Width =915
+                            Height =240
+                            Name ="Etichetta99"
+                            Caption ="6_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =3531
+                    Width =3021
+                    TabIndex =50
+                    Name ="7_DENO"
+                    ControlSource ="Anart_7_Descrizione"
+                    EventProcPrefix ="Ctl7_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =3531
+                            Width =915
+                            Height =240
+                            Name ="Etichetta100"
+                            Caption ="7_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =3930
+                    Width =3021
+                    TabIndex =51
+                    Name ="8_DENO"
+                    ControlSource ="Anart_8_Descrizione"
+                    EventProcPrefix ="Ctl8_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =3930
+                            Width =915
+                            Height =240
+                            Name ="Etichetta101"
+                            Caption ="8_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =4329
+                    Width =3021
+                    TabIndex =52
+                    Name ="9_DENO"
+                    ControlSource ="Anart_9_Descrizione"
+                    EventProcPrefix ="Ctl9_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =4329
+                            Width =915
+                            Height =240
+                            Name ="Etichetta102"
+                            Caption ="9_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =4728
+                    Width =3021
+                    TabIndex =53
+                    Name ="10_DENO"
+                    ControlSource ="Anart_10_Descrizione"
+                    EventProcPrefix ="Ctl10_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =4728
+                            Width =885
+                            Height =240
+                            Name ="Etichetta103"
+                            Caption ="10_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =5171
+                    Width =3021
+                    TabIndex =54
+                    Name ="11_DENO"
+                    ControlSource ="Anart_11_Descrizione"
+                    EventProcPrefix ="Ctl11_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =5171
+                            Width =885
+                            Height =240
+                            Name ="Etichetta104"
+                            Caption ="11_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =5570
+                    Width =3021
+                    TabIndex =55
+                    Name ="12_DENO"
+                    ControlSource ="Anart_12_Descrizione"
+                    EventProcPrefix ="Ctl12_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =5570
+                            Width =885
+                            Height =240
+                            Name ="Etichetta105"
+                            Caption ="12_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =6021
+                    Width =3021
+                    TabIndex =56
+                    Name ="13_DENO"
+                    ControlSource ="Anart_13_Descrizione"
+                    EventProcPrefix ="Ctl13_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =6021
+                            Width =885
+                            Height =240
+                            Name ="Etichetta106"
+                            Caption ="13_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =6420
+                    Width =3021
+                    TabIndex =57
+                    Name ="14_DENO"
+                    ControlSource ="Anart_14_Descrizione"
+                    EventProcPrefix ="Ctl14_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =6420
+                            Width =885
+                            Height =240
+                            Name ="Etichetta107"
+                            Caption ="14_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =6872
+                    Width =3021
+                    TabIndex =58
+                    Name ="15_DENO"
+                    ControlSource ="Anart_15_Descrizione"
+                    EventProcPrefix ="Ctl15_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =6872
+                            Width =885
+                            Height =240
+                            Name ="Etichetta108"
+                            Caption ="15_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =7269
+                    Width =3021
+                    TabIndex =59
+                    Name ="16_DENO"
+                    ControlSource ="Anart_16_Descrizione"
+                    EventProcPrefix ="Ctl16_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =7269
+                            Width =885
+                            Height =240
+                            Name ="Etichetta109"
+                            Caption ="16_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =7665
+                    Width =3021
+                    TabIndex =60
+                    Name ="17_DENO"
+                    ControlSource ="Anart_17_Descrizione"
+                    EventProcPrefix ="Ctl17_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =7665
+                            Width =885
+                            Height =240
+                            Name ="Etichetta110"
+                            Caption ="17_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =5489
+                    Top =8064
+                    Width =3021
+                    TabIndex =61
+                    Name ="18_DENO"
+                    ControlSource ="Anart_18_Descrizione"
+                    EventProcPrefix ="Ctl18_DENO"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =4478
+                            Top =8064
+                            Width =885
+                            Height =240
+                            Name ="Etichetta111"
+                            Caption ="18_DENO:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =6236
+                    Top =510
+                    Width =799
+                    Height =222
+                    TabIndex =62
+                    Name ="Testo113"
+                    ControlSource ="=([Peso1]+[Peso2]+[Peso3]+[Peso4]+[Peso5]+[Peso6]+[Peso7]+[Peso8]+[Peso9]+[Peso1"
+                        "0]+[Peso11]+[Peso12]+[Peso13]+[Peso14]+[Peso15]+[Peso16]+[Peso17]+[Peso18])"
+                    BeforeUpdate ="=([Peso1]+[Peso2]+[Peso3]+[Peso4]+[Peso5]+[Peso6]+[Peso7]+[Peso8]+[Peso9]+[Peso1"
+                        "0]+[Peso11]+[Peso12]+[Peso13]+[Peso14]+[Peso15]+[Peso16]+[Peso17]+[Peso18])"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =0
+                            Left =5555
+                            Top =510
+                            Width =600
+                            Height =240
+                            Name ="Etichetta114"
+                            Caption ="Totale"
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =2
+                    OverlapFlags =85
+                    BackStyle =0
+                    Left =7596
+                    Top =510
+                    Width =915
+                    Height =285
+                    TabIndex =63
+                    Name ="PS"
+                    ControlSource ="PS"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =7200
+                            Top =510
+                            Width =300
+                            Height =240
+                            Name ="Etichetta116"
+                            Caption ="PS"
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =8421376
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End

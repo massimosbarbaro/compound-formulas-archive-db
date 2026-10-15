@@ -1,0 +1,1541 @@
+Version =21
+VersionRequired =20
+Checksum =-2079830388
+Begin Report
+    LayoutForPrint = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =8732
+    DatasheetFontHeight =10
+    ItemSuffix =83
+    Left =600
+    Top =90
+    Right =13935
+    Bottom =8325
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x6dad086c52b4e140
+    End
+    RecordSource ="Foranart18"
+    Caption ="Formule"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x89050000890500008905000089050000000000001c220000ff20000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =9
+            FontWeight =700
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ListBox
+            TextFontFamily =18
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =18
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Times New Roman"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="Articolo"
+        End
+        Begin BreakLevel
+            ControlSource ="Anart_Descrizione"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =1191
+            Name ="IntestazioneReport"
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =120
+                    Top =120
+                    Width =7050
+                    Height =615
+                    FontSize =24
+                    FontWeight =400
+                    Name ="Etichetta24"
+                    Caption ="Formule utilizzate per la produzione"
+                End
+                Begin Line
+                    BorderWidth =4
+                    Top =907
+                    Width =8674
+                    Name ="Linea82"
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="IntestazionePagina"
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =8447
+            Name ="Corpo"
+            Begin
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =897
+                    Top =57
+                    Width =810
+                    Height =270
+                    Name ="Articolo"
+                    ControlSource ="Articolo"
+
+                    Begin
+                        Begin Label
+                            Left =57
+                            Top =57
+                            Width =735
+                            Height =300
+                            Name ="Articolo Etichetta"
+                            Caption ="Articolo"
+                            EventProcPrefix ="Articolo_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =3401
+                    Top =56
+                    Width =2040
+                    Height =270
+                    TabIndex =1
+                    Name ="Anart_Descrizione"
+                    ControlSource ="Anart_Descrizione"
+
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =8028
+                    Top =510
+                    Width =480
+                    Height =270
+                    TabIndex =2
+                    Name ="PS"
+                    ControlSource ="PS"
+
+                    Begin
+                        Begin Label
+                            Left =7653
+                            Top =510
+                            Width =285
+                            Height =255
+                            Name ="PS Etichetta"
+                            Caption ="PS"
+                            EventProcPrefix ="PS_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1523
+                    Top =1360
+                    Width =960
+                    Height =270
+                    TabIndex =3
+                    Name ="Componenete1"
+                    ControlSource ="Componenete1"
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =1366
+                            Width =1290
+                            Height =255
+                            Name ="Componenete1 Etichetta"
+                            Caption ="Componenete1:"
+                            EventProcPrefix ="Componenete1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =1360
+                    Width =3105
+                    Height =270
+                    TabIndex =4
+                    Name ="Anart_1_Descrizione"
+                    ControlSource ="Anart_1_Descrizione"
+
+                    Begin
+                        Begin Label
+                            Left =4138
+                            Top =1360
+                            Width =1125
+                            Height =255
+                            Name ="Anart_1_Descrizione Etichetta"
+                            Caption ="Descrizione1:"
+                            EventProcPrefix ="Anart_1_Descrizione_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3354
+                    Top =1362
+                    Width =540
+                    Height =270
+                    TabIndex =5
+                    Name ="Peso1"
+                    ControlSource ="Peso1"
+
+                    Begin
+                        Begin Label
+                            Left =2664
+                            Top =1360
+                            Width =585
+                            Height =255
+                            Name ="Peso1 Etichetta"
+                            Caption ="Peso1:"
+                            EventProcPrefix ="Peso1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =3741
+                    Top =510
+                    Width =570
+                    Height =270
+                    TabIndex =6
+                    Name ="Spessore da"
+                    ControlSource ="Spessore da"
+                    EventProcPrefix ="Spessore_da"
+
+                    Begin
+                        Begin Label
+                            Left =2721
+                            Top =510
+                            Width =975
+                            Height =300
+                            Name ="Spessore da Etichetta"
+                            Caption ="Spessore da"
+                            EventProcPrefix ="Spessore_da_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =4707
+                    Top =510
+                    Width =570
+                    Height =270
+                    TabIndex =7
+                    Name ="Spessore a"
+                    ControlSource ="Spessore a"
+                    EventProcPrefix ="Spessore_a"
+
+                    Begin
+                        Begin Label
+                            Left =4422
+                            Top =510
+                            Width =210
+                            Height =255
+                            Name ="Spessore a Etichetta"
+                            Caption =" a"
+                            EventProcPrefix ="Spessore_a_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =6227
+                    Top =56
+                    Width =2505
+                    Height =270
+                    TabIndex =8
+                    Name ="Note"
+                    ControlSource ="Note"
+
+                    Begin
+                        Begin Label
+                            Left =5612
+                            Top =56
+                            Width =510
+                            Height =300
+                            Name ="Note Etichetta"
+                            Caption ="Note"
+                            EventProcPrefix ="Note_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =2384
+                    Top =56
+                    Width =960
+                    Height =270
+                    TabIndex =9
+                    Name ="Prodotto"
+                    ControlSource ="Prodotto"
+
+                    Begin
+                        Begin Label
+                            Left =1814
+                            Top =56
+                            Width =510
+                            Height =300
+                            Name ="Prodotto Etichetta"
+                            Caption ="Prod."
+                            EventProcPrefix ="Prodotto_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =491
+                    Top =510
+                    Width =810
+                    Height =270
+                    TabIndex =10
+                    Name ="DataF1"
+                    ControlSource ="DataF1"
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =510
+                            Width =390
+                            Height =300
+                            Name ="DataF1 Etichetta"
+                            Caption ="Dal"
+                            EventProcPrefix ="DataF1_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =1795
+                    Top =510
+                    Width =810
+                    Height =270
+                    TabIndex =11
+                    Name ="DataF2"
+                    ControlSource ="DataF2"
+
+                    Begin
+                        Begin Label
+                            Left =1360
+                            Top =510
+                            Width =390
+                            Height =300
+                            Name ="DataF2 Etichetta"
+                            Caption ="Al"
+                            EventProcPrefix ="DataF2_Etichetta"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =1757
+                    Width =951
+                    TabIndex =12
+                    Name ="Componenete2"
+                    ControlSource ="Componenete2"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =1757
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta28"
+                            Caption ="Componenete2:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =1814
+                    Width =3126
+                    TabIndex =13
+                    Name ="Anart_2_Descrizione"
+                    ControlSource ="Anart_2_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =1814
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta29"
+                            Caption ="Descrizione2:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =2146
+                    Width =951
+                    TabIndex =14
+                    Name ="Componenete3"
+                    ControlSource ="Componenete3"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =2146
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta30"
+                            Caption ="Componenete3:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =2160
+                    Width =3126
+                    Height =270
+                    TabIndex =15
+                    Name ="Anart_3_Descrizione"
+                    ControlSource ="Anart_3_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =2154
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta31"
+                            Caption ="Descrizione3:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =2535
+                    Width =951
+                    TabIndex =16
+                    Name ="Componenete4"
+                    ControlSource ="Componenete4"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =2535
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta32"
+                            Caption ="Componenete4:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =2551
+                    Width =3126
+                    TabIndex =17
+                    Name ="Anart_4_Descrizione"
+                    ControlSource ="Anart_4_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =2551
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta33"
+                            Caption ="Descrizione4:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =2924
+                    Width =951
+                    TabIndex =18
+                    Name ="Componenete5"
+                    ControlSource ="Componenete5"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =2924
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta34"
+                            Caption ="Componenete5:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =2948
+                    Width =3126
+                    TabIndex =19
+                    Name ="Anart_5_Descrizione"
+                    ControlSource ="Anart_5_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =2948
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta35"
+                            Caption ="Descrizione5:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =3313
+                    Width =951
+                    TabIndex =20
+                    Name ="Componenete6"
+                    ControlSource ="Componenete6"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =3313
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta36"
+                            Caption ="Componenete6:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =3288
+                    Width =3126
+                    TabIndex =21
+                    Name ="Anart_6_Descrizione"
+                    ControlSource ="Anart_6_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =3288
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta37"
+                            Caption ="Descrizione6:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =3702
+                    Width =951
+                    TabIndex =22
+                    Name ="Componenete7"
+                    ControlSource ="Componenete7"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =3702
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta38"
+                            Caption ="Componenete7:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =3685
+                    Width =3126
+                    TabIndex =23
+                    Name ="Anart_7_Descrizione"
+                    ControlSource ="Anart_7_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =3685
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta39"
+                            Caption ="Descrizione7:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =4091
+                    Width =951
+                    TabIndex =24
+                    Name ="Componenete8"
+                    ControlSource ="Componenete8"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =4091
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta40"
+                            Caption ="Componenete8:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =4081
+                    Width =3126
+                    TabIndex =25
+                    Name ="Anart_8_Descrizione"
+                    ControlSource ="Anart_8_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =4081
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta41"
+                            Caption ="Descrizione8:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =4480
+                    Width =951
+                    TabIndex =26
+                    Name ="Componenete9"
+                    ControlSource ="Componenete9"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =4480
+                            Width =1290
+                            Height =255
+                            Name ="Etichetta42"
+                            Caption ="Componenete9:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5383
+                    Top =4478
+                    Width =3126
+                    TabIndex =27
+                    Name ="Anart_9_Descrizione"
+                    ControlSource ="Anart_9_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =4478
+                            Width =1125
+                            Height =255
+                            Name ="Etichetta43"
+                            Caption ="Descrizione9:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =4869
+                    Width =951
+                    TabIndex =28
+                    Name ="Componenete10"
+                    ControlSource ="Componenete10"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =4869
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta44"
+                            Caption ="Componenete10:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =4875
+                    Width =3141
+                    TabIndex =29
+                    Name ="Anart_10_Descrizione"
+                    ControlSource ="Anart_10_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =4875
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta45"
+                            Caption ="Descrizione10:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =5258
+                    Width =951
+                    TabIndex =30
+                    Name ="Componenete11"
+                    ControlSource ="Componenete11"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =5258
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta46"
+                            Caption ="Componenete11:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =5215
+                    Width =3141
+                    TabIndex =31
+                    Name ="Anart_11_Descrizione"
+                    ControlSource ="Anart_11_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =5215
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta47"
+                            Caption ="Descrizione11:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =5647
+                    Width =951
+                    TabIndex =32
+                    Name ="Componenete12"
+                    ControlSource ="Componenete12"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =5647
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta48"
+                            Caption ="Componenete12:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =5612
+                    Width =3141
+                    TabIndex =33
+                    Name ="Anart_12_Descrizione"
+                    ControlSource ="Anart_12_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =5612
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta49"
+                            Caption ="Descrizione12:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =6036
+                    Width =951
+                    TabIndex =34
+                    Name ="Componenete13"
+                    ControlSource ="Componenete13"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =6036
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta50"
+                            Caption ="Componenete13:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =6009
+                    Width =3141
+                    TabIndex =35
+                    Name ="Anart_13_Descrizione"
+                    ControlSource ="Anart_13_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =6009
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta51"
+                            Caption ="Descrizione13:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =6425
+                    Width =951
+                    TabIndex =36
+                    Name ="Componenete14"
+                    ControlSource ="Componenete14"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =6425
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta52"
+                            Caption ="Componenete14:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =6406
+                    Width =3141
+                    TabIndex =37
+                    Name ="Anart_14_Descrizione"
+                    ControlSource ="Anart_14_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =6406
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta53"
+                            Caption ="Descrizione14:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =6814
+                    Width =951
+                    TabIndex =38
+                    Name ="Componenete15"
+                    ControlSource ="Componenete15"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =6814
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta54"
+                            Caption ="Componenete15:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =6803
+                    Width =3141
+                    TabIndex =39
+                    Name ="Anart_15_Descrizione"
+                    ControlSource ="Anart_15_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =6803
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta55"
+                            Caption ="Descrizione15:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =7203
+                    Width =951
+                    TabIndex =40
+                    Name ="Componenete16"
+                    ControlSource ="Componenete16"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =7203
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta56"
+                            Caption ="Componenete16:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =7200
+                    Width =3141
+                    TabIndex =41
+                    Name ="Anart_16_Descrizione"
+                    ControlSource ="Anart_16_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =7200
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta57"
+                            Caption ="Descrizione16:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =7592
+                    Width =951
+                    TabIndex =42
+                    Name ="Componenete17"
+                    ControlSource ="Componenete17"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =7592
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta58"
+                            Caption ="Componenete17:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =7596
+                    Width =3141
+                    TabIndex =43
+                    Name ="Anart_17_Descrizione"
+                    ControlSource ="Anart_17_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =7596
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta59"
+                            Caption ="Descrizione17:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =5353
+                    Top =7993
+                    Width =3141
+                    TabIndex =44
+                    Name ="Anart_18_Descrizione"
+                    ControlSource ="Anart_18_Descrizione"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4138
+                            Top =7993
+                            Width =1215
+                            Height =255
+                            Name ="Etichetta60"
+                            Caption ="Descrizione18:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =1532
+                    Top =7981
+                    Width =951
+                    TabIndex =45
+                    Name ="Componenete18"
+                    ControlSource ="Componenete18"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =56
+                            Top =7981
+                            Width =1380
+                            Height =255
+                            Name ="Etichetta61"
+                            Caption ="Componenete18:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =1814
+                    Width =576
+                    TabIndex =46
+                    Name ="Peso2"
+                    ControlSource ="Peso2"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =1814
+                            Width =570
+                            Height =255
+                            Name ="Etichetta62"
+                            Caption ="Peso2:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =2154
+                    Width =576
+                    TabIndex =47
+                    Name ="Peso3"
+                    ControlSource ="Peso3"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =2154
+                            Width =570
+                            Height =255
+                            Name ="Etichetta63"
+                            Caption ="Peso3:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =2551
+                    Width =576
+                    TabIndex =48
+                    Name ="Peso4"
+                    ControlSource ="Peso4"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =2551
+                            Width =570
+                            Height =255
+                            Name ="Etichetta64"
+                            Caption ="Peso4:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =2948
+                    Width =576
+                    TabIndex =49
+                    Name ="Peso5"
+                    ControlSource ="Peso5"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =2948
+                            Width =570
+                            Height =255
+                            Name ="Etichetta65"
+                            Caption ="Peso5:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =3288
+                    Width =576
+                    TabIndex =50
+                    Name ="Peso6"
+                    ControlSource ="Peso6"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =3288
+                            Width =570
+                            Height =255
+                            Name ="Etichetta66"
+                            Caption ="Peso6:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =3685
+                    Width =576
+                    TabIndex =51
+                    Name ="Peso7"
+                    ControlSource ="Peso7"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =3685
+                            Width =570
+                            Height =255
+                            Name ="Etichetta67"
+                            Caption ="Peso7:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =4081
+                    Width =576
+                    TabIndex =52
+                    Name ="Peso8"
+                    ControlSource ="Peso8"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =4081
+                            Width =570
+                            Height =255
+                            Name ="Etichetta68"
+                            Caption ="Peso8:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3339
+                    Top =4478
+                    Width =576
+                    TabIndex =53
+                    Name ="Peso9"
+                    ControlSource ="Peso9"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =4478
+                            Width =570
+                            Height =255
+                            Name ="Etichetta69"
+                            Caption ="Peso9:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =4875
+                    Width =606
+                    TabIndex =54
+                    Name ="Peso10"
+                    ControlSource ="Peso10"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =4875
+                            Width =660
+                            Height =255
+                            Name ="Etichetta70"
+                            Caption ="Peso10:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =5272
+                    Width =606
+                    TabIndex =55
+                    Name ="Peso11"
+                    ControlSource ="Peso11"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =5272
+                            Width =660
+                            Height =255
+                            Name ="Etichetta71"
+                            Caption ="Peso11:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =5612
+                    Width =606
+                    TabIndex =56
+                    Name ="Peso12"
+                    ControlSource ="Peso12"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =5612
+                            Width =660
+                            Height =255
+                            Name ="Etichetta72"
+                            Caption ="Peso12:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =6009
+                    Width =606
+                    TabIndex =57
+                    Name ="Peso13"
+                    ControlSource ="Peso13"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =6009
+                            Width =660
+                            Height =255
+                            Name ="Etichetta73"
+                            Caption ="Peso13:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =6406
+                    Width =606
+                    TabIndex =58
+                    Name ="Peso14"
+                    ControlSource ="Peso14"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =6406
+                            Width =660
+                            Height =255
+                            Name ="Etichetta74"
+                            Caption ="Peso14:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =6803
+                    Width =606
+                    TabIndex =59
+                    Name ="Peso15"
+                    ControlSource ="Peso15"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =6803
+                            Width =660
+                            Height =255
+                            Name ="Etichetta75"
+                            Caption ="Peso15:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =7200
+                    Width =606
+                    TabIndex =60
+                    Name ="Peso16"
+                    ControlSource ="Peso16"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =7200
+                            Width =660
+                            Height =255
+                            Name ="Etichetta76"
+                            Caption ="Peso16:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =7596
+                    Width =606
+                    TabIndex =61
+                    Name ="Peso17"
+                    ControlSource ="Peso17"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =7596
+                            Width =660
+                            Height =255
+                            Name ="Etichetta77"
+                            Caption ="Peso17:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =3324
+                    Top =7993
+                    Width =606
+                    TabIndex =62
+                    Name ="Peso18"
+                    ControlSource ="Peso18"
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =2664
+                            Top =7993
+                            Width =660
+                            Height =255
+                            Name ="Etichetta78"
+                            Caption ="Peso18:"
+                        End
+                    End
+                End
+                Begin TextBox
+                    SpecialEffect =2
+                    OldBorderStyle =1
+                    Left =6464
+                    Top =510
+                    Width =960
+                    Height =270
+                    TabIndex =63
+                    Name ="Testo80"
+                    ControlSource ="=([Peso1]+[Peso2]+[Peso3]+[Peso4]+[Peso5]+[Peso6]+[Peso7]+[Peso8]+[Peso9]+[Peso1"
+                        "0]+[Peso11]+[Peso12]+[Peso13]+[Peso14]+[Peso15]+[Peso16]+[Peso17]+[Peso18])"
+
+                    Begin
+                        Begin Label
+                            Left =5385
+                            Top =510
+                            Width =1020
+                            Height =285
+                            Name ="Etichetta81"
+                            Caption ="Peso Totale"
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =498
+            Name ="PièDiPaginaPagina"
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    Left =57
+                    Top =228
+                    Width =4421
+                    Height =270
+                    Name ="Testo25"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    Left =4592
+                    Top =228
+                    Width =3731
+                    Height =270
+                    TabIndex =1
+                    Name ="Testo26"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+        End
+    End
+End

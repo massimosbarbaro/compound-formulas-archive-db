@@ -1,0 +1,190 @@
+Version =21
+VersionRequired =20
+Checksum =-1310160560
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =5669
+    DatasheetFontHeight =10
+    ItemSuffix =4
+    Left =2670
+    Top =435
+    Right =8745
+    Bottom =5025
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7e2a6dec74ace140
+    End
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =635
+            BackColor =32768
+            Name ="IntestazioneMaschera"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =680
+                    Top =170
+                    Width =4125
+                    Height =465
+                    FontSize =18
+                    Name ="Etichetta2"
+                    Caption ="Modifica e inserimento  dati"
+                    FontName ="Times New Roman"
+                End
+            End
+        End
+        Begin Section
+            Height =2381
+            BackColor =6723891
+            Name ="Corpo"
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =453
+                    Top =340
+                    Width =1980
+                    Height =735
+                    FontSize =14
+                    Name ="Modifica"
+                    Caption ="Modifica"
+                    OnClick ="MGenerale.Modifica"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2891
+                    Top =340
+                    Width =2085
+                    Height =735
+                    FontSize =14
+                    TabIndex =1
+                    Name ="Inserimento"
+                    Caption ="Inserimento"
+                    OnClick ="MGenerale.Immissione"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2437
+                    Top =1530
+                    Width =576
+                    Height =576
+                    TabIndex =2
+                    Name ="Esci"
+                    Caption ="Comando3"
+                    OnClick ="MGenerale.Generale"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Esegui macro"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private Sub Modifica_Click()
+On Error GoTo Err_Modifica_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "Materiale"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_Modifica_Click:
+    Exit Sub
+
+Err_Modifica_Click:
+    MsgBox Err.Description
+    Resume Exit_Modifica_Click
+    
+End Sub
+Private Sub Inserimento_Click()
+On Error GoTo Err_Inserimento_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "InsMateriale"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_Inserimento_Click:
+    Exit Sub
+
+Err_Inserimento_Click:
+    MsgBox Err.Description
+    Resume Exit_Inserimento_Click
+    
+End Sub

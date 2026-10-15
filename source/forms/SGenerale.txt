@@ -1,0 +1,256 @@
+Version =21
+VersionRequired =20
+Checksum =2018959372
+Begin Form
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    CloseButton = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6018
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =4065
+    Top =1230
+    Right =10485
+    Bottom =7950
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7e2a6dec74ace140
+    End
+    Caption ="Maschera Di Partenza"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x890500008905000089050000890500000000000025160000db08000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin FormHeader
+            Height =963
+            BackColor =32768
+            Name ="IntestazioneMaschera"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =410
+                    Top =56
+                    Width =4810
+                    Height =801
+                    FontSize =18
+                    Name ="Etichetta1"
+                    Caption ="Gestione delle Formule utilizzate nella produzione"
+                    FontName ="Times New Roman"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =5442
+                    Top =226
+                    Width =576
+                    Height =576
+                    Name ="Esci"
+                    Caption ="Comando2"
+                    OnClick ="MGenerale.Sbarbaro"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Esegui macro"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin Section
+            Height =3514
+            BackColor =6723891
+            Name ="Corpo"
+            Begin
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =793
+                    Top =1530
+                    Width =1590
+                    Height =450
+                    FontSize =12
+                    FontWeight =700
+                    Name ="Dati"
+                    Caption ="Codice "
+                    OnClick ="MGenerale.FCodice"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =3344
+                    Top =2267
+                    Width =1590
+                    Height =450
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Comando4"
+                    Caption ="Nome"
+                    OnClick ="MGenerale.MPNome"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =793
+                    Top =2265
+                    Width =1590
+                    Height =450
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="Comando5"
+                    Caption ="Nome"
+                    OnClick ="MGenerale.FNome"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =3344
+                    Top =1530
+                    Width =1590
+                    Height =450
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="Comando6"
+                    Caption ="Codice"
+                    OnClick ="MGenerale.MPCodice"
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin Rectangle
+                    OverlapFlags =223
+                    Left =623
+                    Top =1190
+                    Width =1927
+                    Height =1814
+                    Name ="Casella7"
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextFontFamily =18
+                    Left =850
+                    Top =793
+                    Width =1590
+                    Height =420
+                    FontSize =18
+                    Name ="Etichetta8"
+                    Caption ="Formule"
+                    FontName ="Times New Roman"
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextFontFamily =18
+                    Left =3004
+                    Top =793
+                    Width =2355
+                    Height =420
+                    FontSize =18
+                    Name ="Etichetta9"
+                    Caption ="Materie Prime"
+                    FontName ="Times New Roman"
+                End
+                Begin Rectangle
+                    OverlapFlags =215
+                    Left =3174
+                    Top =1190
+                    Width =1927
+                    Height =1814
+                    Name ="Casella10"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =1870
+                    Top =113
+                    Width =1710
+                    Height =540
+                    FontSize =22
+                    Name ="Etichetta11"
+                    Caption ="Ricerche"
+                    FontName ="Times New Roman"
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="PièDiPaginaMaschera"
+        End
+    End
+End

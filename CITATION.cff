@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "Formule: archive of compound formulas searchable by raw material and product (db, 1998–2001)"
+version: "1.0"
+abstract: "Formule is the archive of the compound formulas of a plastic-film manufacturer, loaded from the formula file of the company host system. The laboratory can look up a formula and its components, find every formula that uses a given raw material (by code or by name) and every formula used for a product, and print the formulas."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+date-released: "2001-02-16"
+repository-code: "https://github.com/massimosbarbaro/compound-formulas-archive-access"
+keywords:
+  - "Microsoft Access"
+  - "compound formulas"
+  - "PVC"
+  - "plastics"
+  - "laboratory"
+  - "legacy software"

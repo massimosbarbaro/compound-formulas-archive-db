@@ -1,0 +1,15 @@
+Version =131074
+ColumnsShown =0
+Begin
+    Action ="RunCommand"
+    Argument ="2"
+End
+Begin
+    Action ="OpenForm"
+    Argument ="SSbarbaro"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="-1"
+    Argument ="0"
+End

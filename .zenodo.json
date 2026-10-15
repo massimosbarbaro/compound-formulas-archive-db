@@ -1,0 +1,24 @@
+{
+  "title": "Formule: archive of compound formulas searchable by raw material and product (db, 1998–2001)",
+  "upload_type": "software",
+  "publication_date": "2001-02-16",
+  "description": "<p><em>Archivio delle formule delle mescole con ricerca per materia prima e per prodotto</em></p><p>Formule is the archive of the compound formulas of a plastic-film manufacturer, loaded from the formula file of the company host system. The laboratory can look up a formula and its components, find every formula that uses a given raw material (by code or by name) and every formula used for a product, and print the formulas.</p><p>Designed and programmed by Massimo Sbarbaro in 1998–2001 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "compound formulas",
+    "PVC",
+    "plastics",
+    "laboratory",
+    "legacy software"
+  ],
+  "version": "1.0",
+  "language": "eng",
+  "notes": "Original development: 1998–2001."
+}

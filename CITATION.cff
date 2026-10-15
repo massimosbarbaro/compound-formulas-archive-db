@@ -10,9 +10,9 @@ authors:
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: MIT
 date-released: "2001-02-16"
-repository-code: "https://github.com/massimosbarbaro/compound-formulas-archive-access"
+repository-code: "https://github.com/massimosbarbaro/compound-formulas-archive-db"
 keywords:
-  - "Microsoft Access"
+  - "db"
   - "compound formulas"
   - "PVC"
   - "plastics"

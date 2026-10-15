@@ -23,13 +23,13 @@ Table `Foranart18` (formula lines: formula, component, quantity).
 
 ## Technology
 
-Microsoft Access 2000–2003 format (.mdb), forms, reports and macros.
+db, 2000–2003 format (.mdb), forms, reports and macros.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `database/` | The Access application, emptied of all data. |
+| `database/` | The database application, emptied of all data. |
 | `source/` | Plain-text export (UTF-8) of forms, reports, macros, VBA modules (`SaveAsText`) and of the SQL of every query. |
 | `docs/schema.md` | Tables and fields. |
 
@@ -39,15 +39,15 @@ The database is published **empty**: it has been rebuilt in a new file from the 
 
 ## Related repositories
 
-- [laboratory-quality-control-reports-access](https://github.com/massimosbarbaro/laboratory-quality-control-reports-access)
-- [laboratory-test-requests-access](https://github.com/massimosbarbaro/laboratory-test-requests-access)
-- [raw-material-incoming-analysis-access](https://github.com/massimosbarbaro/raw-material-incoming-analysis-access)
+- [laboratory-quality-control-reports-db](https://github.com/massimosbarbaro/laboratory-quality-control-reports-db)
+- [laboratory-test-requests-db](https://github.com/massimosbarbaro/laboratory-test-requests-db)
+- [raw-material-incoming-analysis-db](https://github.com/massimosbarbaro/raw-material-incoming-analysis-db)
 
 ## How to cite
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
-> Sbarbaro, Massimo. 2001. *Formule: archive of compound formulas searchable by raw material and product*. Software (db, 1998–2001), version 1.0. GitHub. https://github.com/massimosbarbaro/compound-formulas-archive-access.
+> Sbarbaro, Massimo. 2001. *Formule: archive of compound formulas searchable by raw material and product*. Software (db, 1998–2001), version 1.0. GitHub. https://github.com/massimosbarbaro/compound-formulas-archive-db.
 
 ## License
 
